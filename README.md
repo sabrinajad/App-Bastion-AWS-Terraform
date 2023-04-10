@@ -1,5 +1,5 @@
 ## lab2 terrafirm iti:
-*  - create vpc
+* - create vpc
 * - create internet gateway
 * - create natgateway
 * - create public route table
