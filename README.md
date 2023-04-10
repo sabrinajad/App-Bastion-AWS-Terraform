@@ -1,4 +1,5 @@
 ## Lab2 terrafirm iti:
+# Terraform on AWS
 # network module - workspaces - dynamodb state lock - bastion
 * - create vpc
 * - create internet gateway
