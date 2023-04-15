@@ -20,3 +20,5 @@
 * - create two variable definition files(.tfvars) for the two environments
 * - separate network resources into network module
 * - apply your code to create two environments one in us-east-1 and eu-central-1
+* - create rds (mysql)
+* - create elastic cache
