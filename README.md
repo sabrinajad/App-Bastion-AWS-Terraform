@@ -1,4 +1,6 @@
-## `network module` - `workspaces` - `dynamodb state lock` - `bastion`
+# `network module` - `workspaces` - `dynamodb state lock` - `bastion`
+## create private application and bastion infrastructure using terraform on aws
+### Network design:
 * - create vpc
 * - create internet gateway
 * - create natgateway
@@ -12,6 +14,8 @@
 * - attach private route table to private subnets
 * - create s3 backend
 * - create dynamodb state lock
+
+### app-bastion design:
 * - create security group which allow ssh from 0.0.0.0/0
 * - create security group that allow ssh and port 3000 from vpc cidr only
 * - create ec2 (bastion) in public subnet with security group from 7
