@@ -8,7 +8,7 @@ _ Saving the Terraform state in S3 bucket that triggers lambda function that sen
 - Creating VPC with public and private subnets in multiple AZs.
 - Launching bastion host EC2 instances with security groups.
 - Deploying RDS and Elasticache DB in private subnets.
-
+ ![alt text](Diagram.jpeg)
 
 ### Network design:
 * - create vpc
