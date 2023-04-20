@@ -1,5 +1,15 @@
 # `network module` - `workspaces` - `dynamodb state lock` - `bastion`
-## create private application and bastion infrastructure using terraform on aws
+## Create private application and bastion infrastructure using Terraform on AWS
+### Overview:
+✅Setting up two workspaces environment (development and production) .
+✅Saving the Terraform state in S3 bucket that triggers lambda function that sends email every new update.
+✅Creating dynamo DB to store lock file.
+✅Using modules to organize code and improve reusability.
+✅Creating VPC with public and private subnets in multiple AZs.
+✅Launching bastion host EC2 instances with security groups.
+✅Deploying RDS and Elasticache DB in private subnets.
+
+
 ### Network design:
 * - create vpc
 * - create internet gateway
