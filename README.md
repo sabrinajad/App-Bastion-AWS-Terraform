@@ -1,5 +1,6 @@
-# `network module` - `workspaces` - `dynamodb state lock` - `bastion`
-## Create private application and bastion infrastructure using Terraform on AWS
+# Terraform Project ITI
+#### `network module` - `workspaces` - `dynamodb state lock` - `bastion`
+## Create private application and bastion host infrastructure using Terraform on AWS
 ### Overview:
 - Setting up two workspaces environment (development and production) .
 - Saving the Terraform state in S3 bucket that triggers lambda function that sends email every new update.
