@@ -23,9 +23,10 @@
 * - create two private subnets
 * - attach public route table to public subnets
 * - attach private route table to private subnets
+-----------------------------------------------------
 * - create s3 backend
 * - create dynamodb state lock
-
+-----------------------------------------------------
 ### App-bastion design:
 * - create security group which allow ssh from 0.0.0.0/0
 * - create security group that allow ssh and port 3000 from vpc cidr only
